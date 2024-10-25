@@ -3,9 +3,6 @@ project(rationals_io)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set(cinolib_DIR "/Users/federicheddu/Documents/GitHub/cinolib")
-#set(cinolib_DIR "/home/federico/Documents/GitHub/cinolib")
-
 set(CINOLIB_USES_OPENGL_GLFW_IMGUI    ON  ) # used for rendering with OpenGL
 set(CINOLIB_USES_TETGEN               OFF ) # used for polygon triangulation
 set(CINOLIB_USES_TRIANGLE             OFF ) # used for tetrahedralization
